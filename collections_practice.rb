@@ -27,3 +27,7 @@ end
 def merge_data(keys, data)
   data[0].values.map.with_index {|data, i| keys[i].merge(data)}
 end
+
+def find_cool(array)
+  array.select { |x| x.is_a? String }
+end
