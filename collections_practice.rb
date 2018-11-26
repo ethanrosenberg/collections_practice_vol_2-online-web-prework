@@ -12,5 +12,5 @@ def contain_a(elements)
 end
 
 def first_wa(elements)
-  elements.select { |x| x.include?("a") }
+  elements.find { |x| x.start_with?("wa") }
 end
