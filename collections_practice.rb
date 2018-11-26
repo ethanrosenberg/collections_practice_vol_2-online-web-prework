@@ -28,6 +28,6 @@ def merge_data(keys, data)
   data[0].values.map.with_index {|data, i| keys[i].merge(data)}
 end
 
-def find_cool(array)
-  array.select { |x| x.is_a? String }
+def find_cool(cool)
+  array.select { |x| x["temperature"] == "cool" }
 end
