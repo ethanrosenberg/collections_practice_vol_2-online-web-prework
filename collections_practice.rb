@@ -15,5 +15,6 @@ def first_wa(elements)
   elements.find { |x| x.to_s.start_with?("wa") }
 end
 
-  elements.find { |x| x.to_s.start_with?("wa") }
+def remove_non_strings(array)
+  elements.map { |x| x.to_s.start_with?("wa") }
 end
