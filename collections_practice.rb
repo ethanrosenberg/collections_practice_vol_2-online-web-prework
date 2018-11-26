@@ -10,3 +10,7 @@ end
 def contain_a(elements)
   elements.select { |x| x.include?("a") }
 end
+
+def first_wa(elements)
+  elements.select { |x| x.include?("a") }
+end
