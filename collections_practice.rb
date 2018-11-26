@@ -8,5 +8,5 @@ def begins_with_r(tools)
 end
 
 def contain_a(elements)
-  elements.select { |x| x.include?(x) }
+  elements.select { |x| x.include?("a") }
 end
