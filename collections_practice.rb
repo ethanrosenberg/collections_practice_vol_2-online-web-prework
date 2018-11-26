@@ -16,5 +16,5 @@ def first_wa(elements)
 end
 
 def remove_non_strings(array)
-  array.select { |x| x.is_a? String }
+  array.select { |x| !x.is_a? String }
 end
