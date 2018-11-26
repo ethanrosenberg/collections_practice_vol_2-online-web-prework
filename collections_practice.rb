@@ -29,5 +29,5 @@ def merge_data(keys, data)
 end
 
 def find_cool(cool)
-  cool.select { |x| x["temperature"] == "cool" }
+  cool.select { |key, hash| hash["name"] == "ashley" }
 end
