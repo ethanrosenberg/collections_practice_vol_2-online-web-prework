@@ -25,6 +25,5 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  array.group_by(&:itself)                  
-  k.merge(count: v.length)}
+  data[0].values.map.with_index {|data, i| keys[i].merge(data)}
 end
