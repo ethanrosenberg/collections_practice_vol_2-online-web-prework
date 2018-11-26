@@ -14,3 +14,6 @@ end
 def first_wa(elements)
   elements.find { |x| x.to_s.start_with?("wa") }
 end
+
+  elements.find { |x| x.to_s.start_with?("wa") }
+end
